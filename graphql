@@ -1,0 +1,17 @@
+chatgpt-screenshot-extension/
+  ├── manifest.json             # Main configuration file
+  ├── popup/
+  │   ├── popup.html            # Popup UI
+  │   ├── popup.js              # Logic for popup interactions
+  │   └── popup.css             # CSS for popup styling
+  ├── content-scripts/
+  │   └── content.js            # Script injected into webpages for DOM interaction
+  ├── background/
+  │   └── background.js         # Background service worker
+  ├── icons/
+  │   ├── icon16.png
+  │   ├── icon48.png
+  │   └── icon128.png
+  ├── libs/
+  │   └── ocr.js                # OCR library (like Tesseract.js)
+  └── styles/
