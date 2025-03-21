@@ -1,10 +1,19 @@
 {
-  "name": "GPT Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "GPT Extensions",
+  "version": "1.0",
+  "description": "A simple Chrome extension.",
   "action": {
     "default_popup": "Chat-GPT-Online",
     "default_icon": "VL Turbo.jpg"
+  },
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "VL Turbo.jpg",
+    "48": "VL Turbo.jpg",
+    "128": "VL Turbo.jpg"
   }
 }
